@@ -1,4 +1,4 @@
-const DELETE_STATUS = 200;
+const DELETE_STATUS = 204;
 
 const ID_RE = /^[a-f\d]{24}$/i;
 const isId = (v) => typeof v === 'string' && ID_RE.test(v);
